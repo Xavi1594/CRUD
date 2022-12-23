@@ -16,11 +16,32 @@
             <h1>Lista de tareas</h1>
         </div>
 
-            <section class="header__datos">
-                <p class="datos__total">Total: 5 </p>
-                <p class="datos__completadas"> Completadas 2 </p>
-            </section>
+        <section class="header__datos">
+            <p class="datos__total">Total: 5 </p>
+            <p class="datos__completadas"> Completadas 2 </p>
+        </section>
     </header>
+    <main>
+        <div class="contenedor">
+            <form id="contenedor__formulario" class="contenedor__formulario">
+                <span class="formulario__span"></span>
+                <input type="text" id="formulario__tarea">
+                <input type="submit" value="agregar">
+            </form>
+            <div class="contenedor__tareas">
+                <div class="tareas__tarea">
+                    <p>Aprender a Aprender</p>
+                    <div class="tarea__botones">
+                        <button class="botones__eliminar">x</button>
+                        <button class="botones__completada">¡</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
 
 
 
