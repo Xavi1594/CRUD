@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     margin: 15px;
 }
-.contenedor .contenedor__formulario {
+.contenedor .formulario {
     padding: 20px;
     margin: 10px;
     text-align: center;
@@ -14,15 +14,15 @@
     color: #fff;
     max-height: 110px;
 }
-.contenedor .contenedor__formulario  input[type="text"] {
+.contenedor .formulario  input[type="text"] {
     border: none;
     padding: 8px;
 }
-.contenedor .contenedor__formulario  input[type="text"] :focus {
+.contenedor .formulario  input[type="text"]:focus {
     outline: none;
     border-bottom: 5px solid rgb(15, 31, 55);
 }
-.contenedor .contenedor__formulario  input[type="submit"] {
+.contenedor .formulario  input[type="submit"] {
     border: none;
     padding: 10px;
     background-color: rgb(9, 34, 69);
@@ -30,13 +30,13 @@
     cursor: pointer;
 }
 
-.contenedor .contenedor__tareas {
+.contenedor .tareas {
     padding: 10px;
     margin: 10px;
     background-color: rgb(215, 236, 250);
 }
 
-.contenedor .tareas__tarea {
+.contenedor .item-tarea {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
@@ -44,7 +44,7 @@
     margin: 10px 2px;
 }
 
-.botones__eliminar {
+.eliminar {
     border: none;
     background-color: rgb(255, 0, 89);
     color: #ffffff;
@@ -53,10 +53,10 @@
     transition: transform ease 300ms;
     padding: 8px;
 }
-.botones__eliminar:hover {
+.eliminar:hover {
     transform: scale(1.3);
 }
-.botones__completada {
+.completada {
     border: none;
     background-color: rgb(0, 136, 255);
     color: #ffffff;
@@ -64,6 +64,7 @@
     cursor: pointer;
     transition: transform ease 300ms;
     padding: 8px;
+    
 }
 
 .botones__completada:hover {
