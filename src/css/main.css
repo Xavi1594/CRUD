@@ -18,7 +18,7 @@
     border: none;
     padding: 8px;
 }
-.contenedor .formulario  input[type="text"]:focus {
+.contenedor .formulario  input[type="text"] :focus {
     outline: none;
     border-bottom: 5px solid rgb(15, 31, 55);
 }
