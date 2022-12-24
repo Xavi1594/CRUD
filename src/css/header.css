@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: auto;
-    background-color:fuchsia;
+    background-color:#260F01
   
 
 }
@@ -43,4 +43,4 @@ h5 {
 }
 .completa {
     text-decoration: line-through;
-    color: rgb(30, 139, 255);
+    color: rgb(30, 139, 255);}

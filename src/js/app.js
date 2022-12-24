@@ -48,6 +48,7 @@ function mostrarHTML() {
             <div class="botones">
                 <button data-id="${item.id}" class="eliminar">x</button>
                 <button data-id="${item.id}" class="completada">¡</button>
+                <button data-id="${item.id}" class="editar">E</button>
             </div>
              `;
     task.appendChild(itemTarea);
@@ -67,6 +68,7 @@ function eliminarTarea(e) {
   }
 }
 
+
 function tareaCompletada(e) {
   if (e.target.classList.contains("completada")) {
     const tareaId = Number(e.target.getAttribute("data-id"));
@@ -81,3 +83,23 @@ function tareaCompletada(e) {
     mostrarHTML();
   }
 }
+function editarTarea(e) {
+  if (e.target.classList.contains("editar")) {
+    
+    const tareaId = Number(e.target.getAttribute("data-id"));
+
+    const nuevoTexto = prompt("Ingresa el nuevo texto de la tarea");
+    const nuevaTarea = tareas.map((item) => {
+      if (item.id === tareaId) {
+        item.tarea = nuevoTexto;
+        return item;
+      } else {
+        return item;
+      }
+    });
+    tareas = nuevaTarea;
+    mostrarHTML();
+  }
+}
+
+task.addEventListener("click", editarTarea);

@@ -1,0 +1,11 @@
+footer {
+    text-align: center;
+    width: 100%;
+    height: 7%;
+    background-color: #260F01;
+    text-transform: uppercase;
+    padding: 10px;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,9 +1,7 @@
 export 
-const formulario = document.querySelector("#contenedor__formulario")
-
-
-formulario.addEventListener("submit" , validarFormulario)
-
-
-function validarFormulario() {}
-    
+function eventos() {
+  formulario.addEventListener("submit", validarFormulario);
+  task.addEventListener("click", eliminarTarea);
+  task.addEventListener("click", tareaCompletada);
+}
+eventos();
