@@ -1,29 +1,27 @@
-##HTML
-Creamos la estructura necesaria para llevar a cabo el proyecto.
+# ToDo LIST
+## PROYECTO
 
-##CSS
-A través de CSS se realizan los estilos
+El usuario debe tener la opción de ver la lista de los participantes, de añadir un nuevo participante, de borrar un participante y por último la opción de modificar un participante ya añadido. Tiene que poder funcionar en cualquier dispositivo.
 
-##JavaScript
-Añadimos las funciones solicitadas:
-
-##Añadir elementos
--Mostrar el listado
--Modificar cualquier elemento
--Borrar cualquier elemento
--Mostrar tareas completadas
--Así mismo, se muestran en pantalla una serie de alertas:
--El formulario está vacío.
-
-
-
-##HERRAMIENTAS Y LENGUAJES UTILIZADOS
--Lenguajes
--HTML
--CSS
--JavaScript
--Herramientas
--Visual Studio Code, junto a Git Bash, para la creación de los elementos necesarios (documentos HTML, CSS y JavaScript, así como las carpetas necesarias para su organización) y el repositorio local.
--GitHub para la creación de un repositorio online que nos permitirá, entre otras opciones, recuperar el proyecto desde cualquier dispositivo, así como compartirlo llegado el momento.
+## PARTES DEL PROYECTO
+### Estructura HTML
+Se desarrollo la estructura HTML necesaria para desarrollar la web.
+### CSS
+Se personalizo la web, dando estilos con Css
+### JavaScript
+A traves de JS desarrollamos las funciones necesarias para cumplir con los requisitos solicitados:
+- Añadir tareas
+- Listar tareas
+- Modificar tareas
+- Editar tareas
+- Marcar tareas como completadas
+## LENGUAJES Y HERRAMIENTAS UTILIZADOS
+### Lenguajes
+- HTML
+- CSS
+- JavaScript
+### Herramientas
+- Visual Studio Code
+- GitHub
 ##AUTOR
 - [@Xavi1594](https://github.com/Xavi1594)
